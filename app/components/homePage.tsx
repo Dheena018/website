@@ -8,8 +8,8 @@ export default function HomePage() {
         <section>
             <div className=" w-full flex mt-5 p-5">
                 <div className="w-full lg:w-1/2 flex flex-col gap-4 justify-center">
-                    <h1 className="text-[23px] lg:text-4xl px-10 font-bold lg:font-semibold mt-2 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ">Software Developement Company</h1>
-                    <p className="text-sm lg:text-base px-10 p-2 tracking-wide leading-relaxed">We&apos;re your digital partners, dedicated to transforming your ideas into robust solutions. With a team of seasoned developers, designers, and strategists, we embark on every project with passion and precision.</p>
+                    <h1 className="text-[25px] lg:text-4xl px-10 font-bold lg:font-semibold mt-2 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ">Software Developement Company</h1>
+                    <p className="text-[12px] text-justify whitespace-normal lg:text-base px-10 p-2 tracking-wide leading-relaxed">We&apos;re your digital partners, dedicated to transforming your ideas into robust solutions. With a team of seasoned developers, designers, and strategists, we embark on every project with passion and precision.</p>
                     <span className="font-normal px-10 text-start text-xl tracking-wide">
                         Development + HR Technique + UI/UX
                     </span>
