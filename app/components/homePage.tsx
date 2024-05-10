@@ -29,7 +29,7 @@ export default function HomePage() {
                 </p>
             </div>
             <div className="fixed right-8 bottom-[2.5rem] lg:right-[9rem] lg:bottom-2">
-                <img src="/assets/cut-logo.png" alt=".../" className="w-10 h-10 lg:w-14 lg:h-14 cursor-pointer border border-gray-500 rounded-full" />
+                <img src="/assets/favicon.ico" alt=".../" className="w-10 h-10 lg:w-14 lg:h-14 cursor-pointer border border-gray-500 rounded-full" />
             </div>
         </section>
         <Companies />

@@ -27,14 +27,14 @@ export default function Navbar() {
     return (
         <>
             {/* #5DEBD7 */}
-            <motion.section className="" initial = {{opacity:0}}
-                        animate={{opacity:1}}
-                        transition={{delay:1,duration:1.5}}>
+            <motion.section className="" initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1, duration: 1.5 }}>
                 <div className="px-3 lg:px-10 py-5 sticky top-0 bg-white shadow-sm">
                     <div className="container mx-auto">
-                        <motion.div 
-                        
-                        className="flex justify-center md:justify-around lg:justify-between items-center">
+                        <motion.div
+
+                            className="flex justify-center md:justify-around lg:justify-between items-center">
                             {menuBar ?
                                 <span onClick={handleCancelMenu} className='flex justify-start md:mr-10 lg:mr-10'>
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="mr-4 w-6 h-6 border border-black rounded-full font-black">
