@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function AboutUs() {
     return <>
         <section className="px-14">
@@ -6,9 +8,9 @@ export default function AboutUs() {
                     <h2 className=" text-2xl lg:text-5xl font-bold border-b-4 border-pink-500 rounded p-4 m-0 W-20"><span>About Us</span></h2>
                     <div className="flex flex-wrap lg:py-16">
                         <div className="w-full lg:w-1/2 lg:mt-4">
-                            <ol className="lg:px-5 mt-5 p-2">
+                            <ol className="w-full lg:px-5 mt-5 p-2">
                                 <li className="font-semibold text-xl lg:text-2xl">Company Story</li>
-                            <img src="/assets/Company.jpeg" alt="company-img" className="lg:hidden lg:p-4 p-2 shadow-md mt-2 rounded flex justify-center items-center" />
+                            <Image src="/assets/Company.jpeg" alt="company-img" className="lg:hidden lg:p-4 p-2 shadow-md mt-2 rounded flex justify-center items-center" width={200} height={200} />
                             </ol>
                             <ul className="lg:px-10 lg:mt-3 list-disc text-justify whitespace-normal text-sm lg:text-base font-normal tracking-wide lg:tracking-wider leading-relaxed p-2 lg:p-4"> 
                                 <li className="p-3">Start with a captivating headline that grabs attention</li>
@@ -22,7 +24,7 @@ export default function AboutUs() {
                             </ul>
                         </div>
                         <div className="hidden lg:flex w-1/2 mt-9 justify-center items-center">
-                            <img src="/assets/Company.jpeg" alt="company-img" className="p-4 border border-black  rounded" />
+                            <Image src="/assets/Company.jpeg" alt="company-img" className="p-4 border border-black  rounded" width={700} height={200} />
                         </div>
                     </div>
                     <div className="flex flex-wrap lg:py-16">
@@ -32,7 +34,7 @@ export default function AboutUs() {
                                     Product Or Service Offering</li>
                             </ol>
                             <div className="lg:mt-9 mt-5 flex justify-center items-center">
-                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29tcGFueSUyMHByb2R1Y3R8ZW58MHx8MHx8fDA%3D" alt="../" className="p-4 border border-black  rounded" />
+                            <Image src="/assets/product.jpeg" alt="../" className="p-4 border border-black rounded" width={500} height={300} />
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 lg:mt-10">
@@ -55,10 +57,10 @@ export default function AboutUs() {
                                     Team</li>
                             </ol>
                             <div className="lg:hidden mt-2 grid grid-cols-1 lg:grid-cols-2 shadow-md">
-                            <img src="/assets/Teams.jpeg" alt="company-img" className="p-4   rounded" />
-                            <img src="/assets/Team1.jpeg" alt="company-img" className="p-4   rounded" />
-                            <img src="/assets/Team2.jpeg" alt="company-img" className="p-4   rounded" />
-                            <img src="/assets/Team3.jpeg" alt="company-img" className="p-4   rounded" />
+                            <Image src="/assets/Teams.jpeg" alt="company-img" className="p-4 rounded" width={500} height={200}/>
+                            <Image src="/assets/Team1.jpeg" alt="company-img" className="p-4 rounded" width={500} height={200}/>
+                            <Image src="/assets/Team2.jpeg" alt="company-img" className="p-4 rounded" width={500} height={200}/>
+                            <Image src="/assets/Team3.jpeg" alt="company-img" className="p-4 rounded" width={500} height={200}/>
                             </div>
                             <ul className="lg:px-10 mt-1 lg:mt-3 list-disc text-justify whitespace-normal text-sm lg:text-base font-normal tracking-wide lg:tracking-wider leading-relaxed p-4"> 
                                 <li className="p-3">Start with a captivating headline that grabs attention</li>
@@ -72,17 +74,11 @@ export default function AboutUs() {
                             </ul>
                         </div>
                         <div className="w-full hidden lg:w-1/2 mt-9 lg:flex justify-center items-center">
-                            {/* <div className="w-1/2">
-                            <img src="/assets/Teams.jpeg" alt="company-img" className="p-4 border border-black  rounded" />
-                            </div>
-                            <div className="w-1/2">
-                            <img src="/assets/Teams.jpeg" alt="company-img" className="p-4 border border-black  rounded" />
-                            </div> */}
                             <div className="grid grid-cols-1 lg:grid-cols-2 shadow-md">
-                            <img src="/assets/Teams.jpeg" alt="company-img" className="p-4   rounded" />
-                            <img src="/assets/Team1.jpeg" alt="company-img" className="p-4   rounded" />
-                            <img src="/assets/Team2.jpeg" alt="company-img" className="p-4   rounded" />
-                            <img src="/assets/Team3.jpeg" alt="company-img" className="p-4   rounded" />
+                            <Image src="/assets/Teams.jpeg" alt="company-img" className="p-4 rounded" width={500} height={200}/>
+                            <Image src="/assets/Team1.jpeg" alt="company-img" className="p-4 rounded" width={500} height={200}/>
+                            <Image src="/assets/Team2.jpeg" alt="company-img" className="p-4 rounded" width={500} height={200}/>
+                            <Image src="/assets/Team3.jpeg" alt="company-img" className="p-4 rounded" width={500} height={200}/>
                             </div>
                         </div>
                     </div>
@@ -93,7 +89,7 @@ export default function AboutUs() {
                                     Company Culture</li>
                             </ol>
                             <div className="mt-9 flex justify-center items-center">
-                            <img src="/assets/Culture.jpeg" alt="../" className="p-4 border border-black  rounded" />
+                            <Image src="/assets/Culture.jpeg" alt="../" className="p-4 border border-black  rounded" width={650} height={200} />
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 lg:mt-10">

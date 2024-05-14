@@ -47,7 +47,7 @@ export default function Navbar() {
                                     </svg>
                                 </span>}
                             <Link href={"/"}>
-                                <Image src={"/assets/remove-bg.png"} alt="Logo" width={200} height={200} className="rounded md:text-center" blurDataURL="data:..." placeholder="blur" />
+                                <Image src="/assets/remove-bg.png" alt="Logo" width={200} height={200} className="rounded md:text-center" blurDataURL="data:..." placeholder="blur" />
                             </Link>
                             <div className="md:hidden flex gap-2 ml-2">
                                 {btnClick ? <span onClick={handleCancelClick} className='flex items-center justify-center lg:mr-10'>

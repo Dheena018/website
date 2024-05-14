@@ -1,5 +1,5 @@
+import Image from "next/image"
 import Companies from "./companies"
-
 
 export default function HomePage() {
     return <>
@@ -16,7 +16,7 @@ export default function HomePage() {
                     </div>
                 </div>
                 <div className="hidden lg:flex lg:w-1/2">
-                    <img src="https://plus.unsplash.com/premium_photo-1661379296879-0f6dc17c894f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="../" className="p-4" />
+                    <Image src="/assets/development.png" alt="../" className="p-4" width={800} height={200} />
                 </div>
 
             </div>
@@ -27,7 +27,7 @@ export default function HomePage() {
                 </p>
             </div>
             <div className="fixed right-6 bottom-[1rem] lg:right-[6rem] lg:bottom-14">
-                <img src="/assets/favicon.ico" alt=".../" className="w-10 h-10 lg:w-14 lg:h-14 cursor-pointer bg-white rounded-full" />
+                <Image src="/assets/favicon.ico" alt=".../" className="w-10 h-10 lg:w-14 lg:h-14 cursor-pointer bg-white rounded-full" width={200} height={200} />
             </div>
         </section>
         <Companies />
