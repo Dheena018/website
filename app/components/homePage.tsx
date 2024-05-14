@@ -1,7 +1,5 @@
-import Image from "next/image"
 import Companies from "./companies"
-import AboutUs from "./aboutUs"
-import Services from "./services"
+
 
 export default function HomePage() {
     return <>
@@ -13,8 +11,8 @@ export default function HomePage() {
                     <span className="font-normal px-10 text-start text-xl tracking-wide">
                         Development + HR Technique + UI/UX
                     </span>
-                    <div className="px-10 mt-10">
-                        <button type="button" className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold px-7 py-4 rounded">Discover Our Products</button>
+                    <div className="px-10 mt-10 text-center lg:text-left">
+                        <button type="button" className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold px-5 py-2 lg:px-7 lg:py-4 rounded">Discover Our Products</button>
                     </div>
                 </div>
                 <div className="hidden lg:flex lg:w-1/2">
@@ -28,8 +26,8 @@ export default function HomePage() {
                 </svg>
                 </p>
             </div>
-            <div className="fixed right-8 bottom-[2.5rem] lg:right-[9rem] lg:bottom-2">
-                <img src="/assets/favicon.ico" alt=".../" className="w-10 h-10 lg:w-14 lg:h-14 cursor-pointer border border-gray-500 rounded-full" />
+            <div className="fixed right-6 bottom-[1rem] lg:right-[6rem] lg:bottom-14">
+                <img src="/assets/favicon.ico" alt=".../" className="w-10 h-10 lg:w-14 lg:h-14 cursor-pointer rounded-full" />
             </div>
         </section>
         <Companies />

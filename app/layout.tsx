@@ -4,7 +4,6 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-<link rel="icon" href="./public/assets/favicon.ico" sizes="any" />;
 
 export const metadata: Metadata = {
   title: "Leventis",
@@ -18,6 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/assets/favicon.ico" sizes="any" />;
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );

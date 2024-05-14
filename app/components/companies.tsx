@@ -10,7 +10,7 @@ export default function Companies() {
                         <a href="https://mericaninc.com/"> <img src="/assets/merican-logo.jpeg" alt=".../" width={100} height={100} /></a>
                         <a href="https://quberinc.com/"> <img src="/assets/quber-inc.jpeg" alt=".../" width={100} height={100} /></a>
                         <a href=""><img src="/assets/Logo6.png" alt=".../" width={200} height={200} /></a>
-                        <a href="">
+                        <a href="https://www.qvest.com/en/">
                             <img src="https://www.qvest.com/typo3conf/ext/mysite/Resources/Public/Images/logo-orange.svg" alt=".../" width={100} height={100} />
                         </a>
                     </div>
