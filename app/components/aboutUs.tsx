@@ -33,12 +33,12 @@ export default function AboutUs() {
                                 <li className="font-semibold text-lg lg:text-2xl">
                                     Product Or Service Offering</li>
                             </ol>
-                            <div className="lg:mt-9 mt-5 flex justify-center items-center">
-                            <Image src="/assets/product.jpeg" alt="../" className="p-4 border border-black rounded" width={500} height={300} />
+                            <div className="lg:mt-9 mt-5 px-5">
+                            <Image src="/assets/product.jpeg" alt="../" className="p-4 border border-black rounded" width={600} height={300} />
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 lg:mt-10">
-                        <ul className="lg:px-10 mt-6 list-disc text-justify whitespace-normal text-sm lg:text-base font-normal tracking-wide lg:tracking-wider leading-relaxed p-4"> 
+                        <ul className="lg:px-10 mt-10 list-disc text-justify whitespace-normal text-sm lg:text-base font-normal tracking-wide lg:tracking-wider leading-relaxed p-4"> 
                                 <li className="p-3">Start with a captivating headline that grabs attention</li>
                                 <li className="p-3">Introduce your company briefly, highlighting its mission and values</li>
                                 <li className="p-3">Provide a teaser of what readers can expect to learn about your company&apos;s journey.</li>
