@@ -82,7 +82,7 @@ export default function AboutUs() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-wrap lg:py-16">
+                    <div className="flex flex-wrap lg:py-16">   
                         <div className="w-full lg:w-1/2 lg:mt-4">
                         <ol className="lg:px-5 lg:mt-5">
                                 <li className="font-semibold text-lg lg:text-2xl">
