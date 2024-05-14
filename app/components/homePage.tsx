@@ -27,7 +27,7 @@ export default function HomePage() {
                 </p>
             </div>
             <div className="fixed right-6 bottom-[1rem] lg:right-[6rem] lg:bottom-14">
-                <img src="/assets/favicon.ico" alt=".../" className="w-10 h-10 lg:w-14 lg:h-14 cursor-pointer rounded-full" />
+                <img src="/assets/favicon.ico" alt=".../" className="w-10 h-10 lg:w-14 lg:h-14 cursor-pointer bg-white rounded-full" />
             </div>
         </section>
         <Companies />
