@@ -41,10 +41,10 @@ export default function AboutUs() {
                         <ul className="lg:px-10 mt-6 list-disc text-justify whitespace-normal text-sm lg:text-base font-normal tracking-wide lg:tracking-wider leading-relaxed p-4"> 
                                 <li className="p-3">Start with a captivating headline that grabs attention</li>
                                 <li className="p-3">Introduce your company briefly, highlighting its mission and values</li>
-                                <li className="p-3">Provide a teaser of what readers can expect to learn about your company's journey.</li>
+                                <li className="p-3">Provide a teaser of what readers can expect to learn about your company&apos;s journey.</li>
                                 <li className="p-3">Introduce key members of your team, highlighting their roles and expertise.</li>
                                 <li className="p-3">Share stories or data illustrating the positive impact your company has had on customers, communities, or the environment.</li>
-                                <li className="p-3">Explain how your products or services have made a difference in people's lives</li>
+                                <li className="p-3">Explain how your products or services have made a difference in people&apos;s lives</li>
                                 {/* <li className="p-3">Discuss your company's vision for the future and how you plan to continue growing and evolving.</li> */}
                                 {/* <li className="p-3">Invite readers to join you on your journey and become part of your community.</li> */}
                             </ul>
@@ -65,10 +65,10 @@ export default function AboutUs() {
                             <ul className="lg:px-10 mt-1 lg:mt-3 list-disc text-justify whitespace-normal text-sm lg:text-base font-normal tracking-wide lg:tracking-wider leading-relaxed p-4"> 
                                 <li className="p-3">Start with a captivating headline that grabs attention</li>
                                 <li className="p-3">Introduce your company briefly, highlighting its mission and values</li>
-                                <li className="p-3">Provide a teaser of what readers can expect to learn about your company's journey.</li>
+                                <li className="p-3">Provide a teaser of what readers can expect to learn about your company&apos;s journey.</li>
                                 <li className="p-3">Introduce key members of your team, highlighting their roles and expertise.</li>
                                 <li className="p-3">Share stories or data illustrating the positive impact your company has had on customers, communities, or the environment.</li>
-                                <li className="p-3">Explain how your products or services have made a difference in people's lives</li>
+                                <li className="p-3">Explain how your products or services have made a difference in people&apos;s lives</li>
                                 {/* <li className="p-3">Discuss your company's vision for the future and how you plan to continue growing and evolving.</li> */}
                                 {/* <li className="p-3">Invite readers to join you on your journey and become part of your community.</li> */}
                             </ul>
@@ -96,10 +96,10 @@ export default function AboutUs() {
                         <ul className="lg:px-10 py-8 lg:py-16 lg:mt-6 list-disc text-justify whitespace-normal text-sm lg:text-base font-normal tracking-wide lg:tracking-wider leading-relaxed lg:p-4"> 
                                 <li className="p-3">Start with a captivating headline that grabs attention</li>
                                 <li className="p-3">Introduce your company briefly, highlighting its mission and values</li>
-                                <li className="p-3">Provide a teaser of what readers can expect to learn about your company's journey.</li>
+                                <li className="p-3">Provide a teaser of what readers can expect to learn about your company&apos;s journey.</li>
                                 <li className="p-3">Introduce key members of your team, highlighting their roles and expertise.</li>
                                 <li className="p-3">Share stories or data illustrating the positive impact your company has had on customers, communities, or the environment.</li>
-                                <li className="p-3">Explain how your products or services have made a difference in people's lives</li>
+                                <li className="p-3">Explain how your products or services have made a difference in people&apos;s lives</li>
                                 <li className="p-3">Discuss your company's vision for the future and how you plan to continue growing and evolving.</li>
                                 {/* <li className="p-3">Invite readers to join you on your journey and become part of your community.</li> */}
                             </ul>
