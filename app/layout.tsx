@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
+import Navbar from "./components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +22,14 @@ export default function RootLayout({
       <Head>
         <link rel="icon" href="/assets/favicon.ico" sizes="any" />;
       </Head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      <div className="flex flex-col">
+      <div className="sticky top-0 z-50">
+        <Navbar />
+      </div>
+      {children}
+    </div>    
+        </body>
     </html>
   );
 }

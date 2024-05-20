@@ -1,10 +1,11 @@
 import Image from "next/image"
+import Footer from "./footer"
 
 export default function AboutUs() {
     return <>
         <section className="px-14">
             <div className="container mx-auto">
-                <div className="py-12 lg:py-24">
+                <div className="py-6">
                     <h2 className=" text-2xl lg:text-5xl font-bold border-b-4 border-pink-500 rounded p-4 m-0 W-20"><span>About Us</span></h2>
                     <div className="flex flex-wrap lg:py-16">
                         <div className="w-full lg:w-1/2 lg:mt-4">
@@ -108,5 +109,6 @@ export default function AboutUs() {
                 </div>
             </div>
         </section>
+        <Footer />
     </>
 }

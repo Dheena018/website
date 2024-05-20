@@ -6,9 +6,18 @@ import { useState } from "react";
 import MenuBar from "./menuBar";
 import HomePage from "./homePage";
 import { motion } from "framer-motion";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
-    const NavInfo = ["Home", "About Us", "Services", "Careers", "Contact"];
+    const currentPage = usePathname();
+    // const NavInfo = ["Home", "About Us", "Services", "Careers", "Contact"];
+    const NavInfo = [
+        {title:"Home",link:"/"},
+        {title:"About Us", link:"/aboutUs"},
+        {title:"Services",link:"/servicePage"},
+        {title:"Careers",link:"/careers"},
+        {title:"Contact",link:"/contact"}
+    ];
     const [btnClick, setBtnClick] = useState(false);
     const [menuBar, setMenuBar] = useState(false);
 
@@ -30,7 +39,7 @@ export default function Navbar() {
             <motion.section className="" initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1, duration: 1.5 }}>
-                <div className="px-3 lg:px-10 py-5 sticky top-0 bg-white shadow-sm">
+                <div className="px-3 lg:px-14 py-5 sticky top-0 bg-white shadow-sm">
                     <div className="container mx-auto">
                         <motion.div
 
@@ -70,11 +79,12 @@ export default function Navbar() {
                                 </span>
                             </div>
                             <div className="my-auto">
-                                <ul className="flex hidden lg:flex font-semibold">
-                                    {NavInfo.map((val, index) => <li key={index} className="pr-5 text-center m-2 text-medium rounded-full"><Link href={"/"} className="px-3 py-2 hover:border-t-2 hover:border-black bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">{val}</Link></li>)}
+                                <ul className="hidden lg:flex font-semibold navbar">
+                                    {NavInfo.map((val, index) => <li key={index} className="pr-5 text-center m-2 text-medium rounded-full"><Link href={val.link} className={`${currentPage === val.title ? "text-black":"px-3 py-2 hover:border-t-2 hover:border-black bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%" } `}>{val.title} 
+                                    </Link></li>)}
                                 </ul>
                             </div>
-                            <div className="flex gap-4 hidden md:flex">
+                            <div className="gap-4 hidden md:flex">
                                 {btnClick ? <span onClick={handleCancelClick} className='flex items-center justify-center mr-10'>
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="ml-4 w-6 h-6 rounded-full bg-red-500 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
@@ -95,9 +105,6 @@ export default function Navbar() {
                 </div>
                 <SearchButton btnClick={btnClick} setBtnClick={setBtnClick} />
                 <MenuBar menuBar={menuBar} setMenuBar={setMenuBar} />
-                <div className="">
-                    <HomePage />
-                </div>
             </motion.section>
         </>
     )

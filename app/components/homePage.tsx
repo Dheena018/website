@@ -30,7 +30,7 @@ export default function HomePage() {
                 <Image src="/assets/favicon.ico" alt=".../" className="w-10 h-10 lg:w-14 lg:h-14 cursor-pointer bg-white rounded-full" width={200} height={200} />
             </div>
         </section>
-        <Companies />
+        {/* <Companies /> */}
         {/* <AboutUs /> */}
     </>
 };
