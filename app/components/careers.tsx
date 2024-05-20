@@ -11,7 +11,7 @@ export default function Careers() {
                         </div>
                     </div>
                     <div className="w-full lg:w-1/2 flex justify-center items-center">
-                        <p className="text-[12px] lg:text-justify whitespace-normal lg:text-base px-10 lg:p-2 tracking-wide leading-relaxed">Join our innovative product-based company and be part of a team that's shaping the future. Explore exciting career opportunities where you can unleash your creativity, drive meaningful impact, and grow alongside industry leaders. Whether you're a seasoned professional or just starting your journey, discover your potential with us.</p>
+                        <p className="text-[12px] lg:text-justify whitespace-normal lg:text-base px-10 lg:p-2 tracking-wide leading-relaxed">Join our innovative product-based company and be part of a team that&apos;s shaping the future. Explore exciting career opportunities where you can unleash your creativity, drive meaningful impact, and grow alongside industry leaders. Whether you&apos;re a seasoned professional or just starting your journey, discover your potential with us.</p>
                     </div>
                 </div>
             </div>
