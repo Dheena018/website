@@ -1,5 +1,5 @@
+'use client'
 import { motion } from "framer-motion"
-import AboutUs from "./aboutUs"
 
 export default function Services() {
     return <>
@@ -56,6 +56,6 @@ export default function Services() {
                 </div>
             </div>
         </section>
-        <AboutUs />
+        {/* <AboutUs /> */}
     </>
 }
