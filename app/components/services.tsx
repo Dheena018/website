@@ -5,7 +5,7 @@ export default function Services() {
     return <>
         <section className="px-14">
             <div className="container mx-auto">
-                <div className="py-12 lg:py-24">
+                <div className="py-6">
                     <h2 className="text-2xl lg:text-5xl font-bold border-b-4 border-blue-500 rounded p-4 m-0 W-20">Our Services</h2>
                     <p className="text-justify whitespace-normal text-sm lg:text-base font-normal tracking-wide lg:tracking-wider leading-relaxed lg:indent-40 mt-7 lg:mt-10">Welcome to Our <b className="text-blue-500">Leventis</b>, your one-stop destination for comprehensive software solutions and BPO services. We specialize in crafting cutting-edge software products tailored to your business needs, from conceptualization to execution. Our BPO services ensure streamlined operations, allowing you to focus on your core competencies while we handle the rest. Additionally, our UI/UX design expertise ensures seamless user experiences that elevate your products above the competition.</p>
                 </div>
@@ -56,6 +56,5 @@ export default function Services() {
                 </div>
             </div>
         </section>
-        {/* <AboutUs /> */}
     </>
 }

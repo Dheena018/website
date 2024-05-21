@@ -1,9 +1,12 @@
-import Image from "next/image"
-import Companies from "./companies"
+'use client';
+import Image from "next/image";
+import {motion} from "framer-motion";
 
 export default function HomePage() {
     return <>
-        <section>
+        <motion.section initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1, duration: 1.5 }}>
             <div className=" w-full flex mt-5 p-5">
                 <div className="w-full lg:w-1/2 flex flex-col gap-4 justify-center">
                     <h1 className="text-[25px] lg:text-4xl px-10 font-bold lg:font-semibold mt-2 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ">Software Developement Company</h1>
@@ -29,8 +32,6 @@ export default function HomePage() {
             <div className="fixed right-6 bottom-[1rem] lg:right-[6rem] lg:bottom-14">
                 <Image src="/assets/favicon.ico" alt=".../" className="w-10 h-10 lg:w-14 lg:h-14 cursor-pointer bg-white rounded-full" width={200} height={200} />
             </div>
-        </section>
-        {/* <Companies /> */}
-        {/* <AboutUs /> */}
+        </motion.section>
     </>
 };

@@ -19,9 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <link rel="icon" href="/assets/favicon.ico" sizes="any" />;
-      </Head>
+      </head>
       <body className={inter.className}>
       <div className="flex flex-col">
       <div className="sticky top-0 z-50">
