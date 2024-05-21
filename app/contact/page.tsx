@@ -1,10 +1,10 @@
 import React from 'react'
-import Careers from '../components/careers'
+import Contact from '../components/contact'
 
 const page = () => {
   return (
     <div>
-      <Careers />
+      <Contact />
     </div>
   )
 }
